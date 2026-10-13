@@ -107,7 +107,7 @@ class ProfileScreen extends StatelessWidget {
                         icon: Icons.vpn_key_outlined,
                         title: 'Змінити пароль',
                         onTap: () =>
-                            Navigator.pushNamed(context, AppRoutes.forgot),
+                            Navigator.pushNamed(context, AppRoutes.changePassword),
                       ),
                     ],
                   ),
